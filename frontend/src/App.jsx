@@ -8,7 +8,6 @@ export default function App() {
     <BrowserRouter>
       <div className="min-h-screen bg-white text-black">
         
-
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/login" element={<LoginPage />} />
