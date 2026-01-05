@@ -1,7 +1,6 @@
 import { Input } from "../../components/ui/Input";
 import { Button } from "../../components/ui/Button";
 import { Checkbox } from "../../components/ui/Checkbox";
-import SocialLoginButton from "./SocialLoginButton";
 
 export default function LoginForm() {
   return (
@@ -12,10 +11,6 @@ export default function LoginForm() {
           Enter your credentials to continue
         </p>
       </div>
-
-      
-
-      
 
       <div className="space-y-4">
         <Input type="email" placeholder="Email address" />
@@ -34,9 +29,9 @@ export default function LoginForm() {
       </Button>
 
       <p className="text-sm text-center text-gray-500">
-        Don’t have an account?{" "}
-        <span className="font-medium text-black cursor-pointer">
-          Create one
+        Not registered yet?{" "}
+        <span className="font-medium text-yellow-400 cursor-pointer">
+          Create an Account
         </span>
       </p>
     </div>

@@ -4,8 +4,13 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex">
       {/* Left section (50%) */}
-      <div className="w-1/2 flex items-center justify-center px-6 bg-white z-10">
+      <div className="w-1/2 relative flex items-center justify-center px-6 bg-white z-10">
         <LoginForm />
+
+        {/* Left footer */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-xs text-gray-400">
+          Made with ❤️ by tanX Innovations
+        </div>
       </div>
 
       {/* Right section (50%) */}
@@ -22,8 +27,8 @@ export default function LoginPage() {
           />
         </div>
 
-        {/* Footer links */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-gray-500 space-x-6">
+        {/* Right footer */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-black space-x-6">
           <span>License</span>
           <span>Terms of Use</span>
           <span>Blog</span>

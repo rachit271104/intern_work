@@ -73,3 +73,15 @@ src/
 ├── index.css                   # Tailwind base styles
 ├── App.jsx                     # Root app component
 ├── main.jsx                    # Entry point
+
+
+
+
+//////////////  url
+| URL        | What you see          |
+| ---------- | --------------------- |
+| `/`        | Homepage (no sidebar) |
+| `/login`   | Login page            |
+| `/blogs/1` | Sidebar + Blog Page 1 |
+| `/blogs/2` | Sidebar + Blog Page 2 |
+| `/blogs/3` | Sidebar + Blog Page 3 |
