@@ -1,5 +1,8 @@
 import { Menu } from 'lucide-react';
 import { Container } from './Container';
+import { Link } from "react-router-dom";
+import { Button } from "../ui/Button";
+
 
 export function Header() {
   return (
@@ -36,7 +39,10 @@ export function Header() {
             <nav className="hidden md:flex items-center gap-10 text-base font-semibold text-black">
               <a href="#">Contribute</a>
               <a href="#">Impact Jobs</a>
-              <a href="#">Login</a>
+              <Link to="/login">
+                <Button variant="link">Login</Button>
+              </Link>
+
             </nav>
 
             {/* Mobile hamburger (true last column) */}

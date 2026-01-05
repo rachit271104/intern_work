@@ -13,13 +13,9 @@ export default function LoginForm() {
         </p>
       </div>
 
-      <SocialLoginButton />
+      
 
-      <div className="flex items-center gap-3 text-sm text-gray-400">
-        <div className="flex-1 h-px bg-gray-200" />
-        or
-        <div className="flex-1 h-px bg-gray-200" />
-      </div>
+      
 
       <div className="space-y-4">
         <Input type="email" placeholder="Email address" />
