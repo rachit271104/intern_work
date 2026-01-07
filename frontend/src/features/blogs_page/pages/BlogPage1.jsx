@@ -11,10 +11,14 @@ export default function BlogPage1() {
     <div className="bg-slate-100">
       <BlogHeader />
 
-      <BlogTable
-        data={blogsData}
-        onView={(blog) => setSelectedBlog(blog)}
-      />
+      <div className="bg-white rounded-2xl shadow-sm mt-2 pt-1 ">
+
+        <BlogTable
+          data={blogsData}
+          onView={(blog) => setSelectedBlog(blog)}
+        />
+      </div>
+
 
       {selectedBlog && (
         <BlogPreviewModal
