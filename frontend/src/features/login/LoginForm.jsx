@@ -1,36 +1,38 @@
 import { Input } from "../../components/ui/Input";
 import { Button } from "../../components/ui/Button";
 import { Checkbox } from "../../components/ui/Checkbox";
+import SocialLoginButton from "./SocialLoginButton";
 
 export default function LoginForm() {
   return (
-    <div className="w-full max-w-sm space-y-6">
+    <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold">Sign in</h1>
+        <h1 className="text-2xl font-semibold text-[#2E3192]">Sign In</h1>
         <p className="text-sm text-gray-500 mt-1">
-          Enter your credentials to continue
+          Enter your email and password to sign in!
         </p>
       </div>
 
+
       <div className="space-y-4">
-        <Input type="email" placeholder="Email address" />
-        <Input type="password" placeholder="Password" />
+        <Input type="email" placeholder="mail@simmmple.com" />
+        <Input type="password" placeholder="Min. 8 characters" />
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between text-xs">
         <Checkbox label="Keep me logged in" />
-        <button className="text-sm text-gray-500 hover:underline">
+        <button className="text-gray-500 hover:underline">
           Forgot password?
         </button>
       </div>
 
       <Button variant="yellow" className="w-full">
-        Sign in
+        Sign In
       </Button>
 
-      <p className="text-sm text-center text-gray-500">
+      <p className="text-xs text-center text-gray-500">
         Not registered yet?{" "}
-        <span className="font-medium text-yellow-400 cursor-pointer">
+        <span className="font-medium text-[#FFDD00] cursor-pointer">
           Create an Account
         </span>
       </p>
