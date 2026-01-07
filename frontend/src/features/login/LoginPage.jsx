@@ -20,7 +20,7 @@ export default function LoginPage() {
             <img
               src="/login/login_logo.png"
               alt="ImpactLens"
-              className="max-w-[260px] w-full"
+              className="max-w-65 w-full"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function LoginPage() {
             <img
               src="/login/login_logo.png"
               alt="ImpactLens"
-              className="max-w-[420px] w-full"
+              className="max-w-105 w-full"
             />
           </div>
 

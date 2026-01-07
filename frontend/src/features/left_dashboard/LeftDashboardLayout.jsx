@@ -13,7 +13,7 @@ export default function LeftDashboardLayout() {
   const left = "flex items-center gap-3";
 
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen bg-slate-100 flex">
       <aside className="w-[250px] bg-white  px-6 py-8 flex flex-col">
         <div className="mb-12">
           <img
@@ -133,7 +133,7 @@ export default function LeftDashboardLayout() {
         </nav>
       </aside>
 
-      <main className="flex-1 bg-gray-50 p-8 overflow-y-auto">
+      <main className="flex-1  pt-2 px-5 pb-5 overflow-y-auto">
         <Outlet />
       </main>
     </div>
